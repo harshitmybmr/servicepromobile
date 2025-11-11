@@ -13,6 +13,15 @@ export default defineConfig({
     port: 8081,
     host: true,
   },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+  },
+  preview: {
+    port: 8081,
+    host: true,
+  },
 })
 
 
